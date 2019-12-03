@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Countries API</title>
+    <link rel="stylesheet" href="country-css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../style.js"></script>
+  </head>
+  <script src="country-js.js"></script>
+  <body onload="load()" style="background: #000000">
+         
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../home/home.html">Home</a>
+  <a href="country-index.html">Country</a>
+  <a href="../currency/currency-index.html">Currency</a>
+  <a href="../dogs/dog-index.html">Dogs</a>
+  <a href="../cricket/cric.html">Cricket score</a>
+    <a href="http://gasdetection.netlify.com/">iot project</a>
+  <a href="../about/about.html">About</a>
+  <a href="../index.html" style="margin-right: 10px ; font-size: 15px; font-weight: bolder;" >Logout</a>
+            
+</div>
+         
+<div style="background-color:black;color:whitesmoke;padding:15px"> <span style="font-size:30px;cursor:pointer; margin:15px " onmouseover="openNav()" onclick="openNav()">&#9776;</span>
+
+</div>
+                      
+    
+    <div id="main-container">
+      
+
+      <div class="topnav">
+        <div class="search-container">
+            <input id="search" onkeyup="myfun4()" type="search" placeholder="Example: Canada,China,Madagascar...." name="search">
+
+            <div class="selector">
+              <select id="change" class="mdb-select md-form" onchange="load2()">
+                <option value="Choose your option" selected>Choose your option</option>               
+                
+                 </select>
+            </div>
+
+        </div>
+      </div>
+
+      <div id="info-container">
+        <div id="flag-container">
+                <img src="" alt="">
+              </div>
+              <br>
+              <p>CAPITAL: <span id="capital"></span></p>
+         <br>
+        <p>POPULATION: <span id="population"></span></p>
+        <br><p>AREA:<span id="Area"></span>sqft.</p>
+       <br><p>CURRENCIES: <span id="currencies"></span></p>
+       <br><p>REGION: <span id="region"></span></p>
+        <br><p>SUBREGION: <span id="subregion"></span></p>
+        <br><p>DIALING CODE: <span id="dialing-code"></span></p>
+        
+        <br><p>LANGUAGES: <span id="language"></span></p>
+        <br><p>ACRONYM:<span id="Acronym"></span></p>
+       
+     
+      </div>
+    </div>
+    
+  </body>
+</html>

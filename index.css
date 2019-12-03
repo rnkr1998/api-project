@@ -1,0 +1,61 @@
+
+
+h3{
+    color:teal;
+    text-align: center;
+    font-size: 40px;
+
+    padding:40px;
+    margin:1px;
+   
+}
+
+    form{
+        text-align: center;
+       
+        margin: 0 auto;
+         width: 470px;
+         padding: 40px;
+border-radius: 20px;
+        background: white;
+    }
+    
+   
+    #name,#password{
+        padding:10px;
+        border-color:lightgrey;
+       
+    }
+   
+    #submit{
+        background-color:teal;
+        color:#7F1919;
+        padding:15px;
+        border-radius: 5px;
+        
+    }
+    .body{
+        background-color:#0069ff;;
+        font-family:"proxima-nova", helvetica;
+        padding:0;
+        margin:0;
+    }
+    .link{
+        font-size:25px;
+        color:teal;
+        text-decoration: none;
+        
+    }
+    @media only screen and (max-width: 768px) 
+    {
+    form{
+       
+        margin:20px;
+        width:270px;
+       
+
+
+}
+    }
+   
+

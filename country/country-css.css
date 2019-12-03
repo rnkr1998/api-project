@@ -1,0 +1,168 @@
+box{
+  box-sizing: border-box;
+}
+body {
+ 
+  font-size: 15px;
+  color: #333;
+  
+ background: #000000;
+}
+.selector
+{
+  margin-top:15px;
+}
+#header
+{
+  font-family: fantasy;
+  padding:20px;
+  width:100%;
+  border-style: ridge;
+  border-color:1px blue;
+  margin: 0em auto;
+  border-radius: 10px;
+  background-image: url("visual.png") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+p{
+    display:flex;
+    flex-direction: row;
+    
+    background-color: #6767F3;
+  
+    margin:5px auto;
+    margin-right: 0px auto;
+    border-style: groove;
+    border:5px #CA8DAB;
+    font-size: 20px;
+    padding:  10px;
+  font-weight: 900;
+  border-radius: 5px;
+    
+}
+option
+{
+  padding:20px;
+}
+#info-container
+  {
+    display: none;
+  }
+
+h1 {
+  text-align: center;
+  color:#C01364;
+  width:90%;
+  font-weight: 100px;
+}
+#main-container {
+  width: 502px;
+  margin: 30px auto;
+  padding: 0;
+}
+#flag-container {
+
+  background-color: #fff;
+
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  align-content: center;
+  margin-top: 40px;
+}
+#flag-container img {
+  display: block;
+  width:  100%;
+  height: 100%;
+}
+
+
+#info-container p span {
+  font-weight: normal;
+  margin-left: 3%;
+}
+#change{
+  padding:12px;
+  width:200px;
+  background: #454545;
+  cursor: pointer;
+  margin: 20px;
+  margin-top: 0px;
+  border-radius: 5px;
+  color:white;
+ 
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  body { 
+    font-size: 12px;
+    max-width: 768px;
+      }
+      #header{
+        max-width: 390px;
+      }
+  #main-container { max-width: 342px; }  
+
+  #flag-container { height: 68px;
+    width:100px;
+  }  
+  .topnav input[type=search] {
+    max-width: 300px;
+  }
+
+#change
+{
+   
+padding:8px;
+width:167px;
+}
+}
+
+
+
+
+#countries
+{
+ color:blue;
+}
+
+.topnav input[type=search] {
+  border: 1px solid #ccc;  
+}
+.topnav input[type=search] {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+  border: none;
+  width:700px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+}
+.topnav {
+ 
+  
+  width:100px;
+}
+
+
+
+#search {
+  
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width:600px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+

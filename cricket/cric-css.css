@@ -1,0 +1,159 @@
+
+#bod
+{
+  background: #290e05;
+  
+
+
+
+ 
+}
+.unique
+{
+    text-align: center;
+
+    padding:10px;
+  
+    color:orange;
+
+   
+    font-size: 20px;
+    font-weight: 40px;
+
+
+}
+
+
+
+
+ /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+    
+
+ .sidenavv {
+  
+  overflow: scroll;
+   padding:10px;
+
+ height: 700pxx%;
+  text-align: center;
+
+  background:#010203;
+   scroll-behavior: smooth;
+  
+ }
+   
+ h3
+{
+font-family:fantasy; 
+margin:20px;
+color:white;
+font-size:30px; 
+text-align:center;
+margin-top:10px;
+color:#949192;
+}
+ 
+ /* Set black background color, white text and some padding */
+ 
+ 
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ @media only screen and (max-width: 768px)  {
+   .sidenavv{
+
+  
+     padding: 15px;
+     width:180px;
+     height:620px;
+     
+   
+   }
+  h3
+{
+margin:4px;
+font-size:24px;
+}
+
+     #heading
+     {
+       font-size:10px;
+     }
+
+#data
+   {
+     width:300px;
+     height:620px;
+     
+   }
+
+
+
+ } 
+ #heading
+ {
+     
+    
+    
+     font-family:fantasy;
+     font-size: 20px;
+  
+    color:orange;
+    text-align: center ;
+    margin:0px auto;
+   
+    }
+ #headingg
+{
+ font-size: 20px;
+  color: chartreuse;
+
+}
+ #jumper
+ {
+  font-size: 20px;
+  color: greenyellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+
+ }
+ .player
+ {
+   color:  chartreuse;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 17px;;
+  
+ }
+
+ 
+ #date
+ {
+  font-size:15px;
+  color:#1C9AED;
+ }
+ #mate
+ {
+  font-size:20px;
+  color: red;
+ }
+ .col-md-8
+ {
+   overflow: scroll;
+   border-style: solid;
+   height: 700px;
+   scroll-behavior: smooth;
+   
+   
+  
+   background: #000000;
+  
+  
+  
+   
+ }
+ #container-fluid
+ {
+
+   display: flex;
+   flex-direction: row;
+ }

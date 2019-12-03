@@ -1,0 +1,100 @@
+body
+{
+   background:#000000;
+}
+
+#imagespan
+{
+  background-image:url('swap.jpg');
+}
+
+  .container
+  {
+      display: flex;
+      flex-direction:column;
+      margin:30px;
+      margin-left: 80px;
+      border-style: groove;
+      border-width: 5px;
+      border-color: grey;
+        padding:20px;
+        background: #3f000f;
+        border-radius: 6px;
+      
+     
+  }
+ 
+  select{
+    border-style: groove;
+    border-width: 3px;
+    border-color: grey;
+      padding:10px;
+      background: #white;
+      margin-top: 5px;
+      border-radius: 6px;
+  }
+
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  padding:10px;
+  border-radius: 6px;
+  background: white;
+  }
+  .dropdown
+  {
+   cursor: pointer;
+  }
+  li{
+      cursor: pointer;
+  }
+  
+  h2{
+      
+      padding:40px;
+      color:brown;
+      font-weight: 80px;
+      font-size: 60px;
+      font-family: impact;
+      
+  }
+  @media only screen and (max-width: 768px) 
+{
+    .page-header
+    {
+        max-width: 768px;
+    }
+   .data
+   {
+   max-width:768px ;
+
+   }
+  
+   #para
+   {
+    margin: 20px;
+  
+   }
+   #head
+   {
+     font-size: 0px;
+    
+   }
+   .container
+   {
+     height: 130px;
+     margin:50px;
+
+   }
+   h1
+   {
+    margin: 20px;
+    
+   }
+
+}
+  
+  
+ 
