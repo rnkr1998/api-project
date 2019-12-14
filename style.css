@@ -24,6 +24,10 @@ body {
   display: block;
   transition: 0.3s;
 }
+#git
+{
+margin-left:10px;
+}
 .badg
 {
 margin-left:40px;
@@ -95,14 +99,17 @@ margin-left:80px;
 #followus
 {
 margin-top:50px;
-margin-left:200px;
+margin-left:120px;
 
 }
 .badg
 {
-margin-left:70px;
+margin-left:130px;
 }  
-
+#git
+{
+margin-left:100px;
+}
 
 }
 
