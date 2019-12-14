@@ -24,7 +24,10 @@ body {
   display: block;
   transition: 0.3s;
 }
-
+.badg
+{
+margin-left:40px;
+}
 .badg:hover
 {
 transform: scale(1.05);
@@ -60,10 +63,48 @@ color:orange;
   padding: 16px;
 }
 
+#aboutflex
+{
+display:flex;
+flex:direction:column;
+}
+#followus
+{
+margin:50px;
+margin-left:800px;
+}
+#bad
+{
+
+margin-left:220px;
+
+}
+   @media only screen and (max-width:500px) 
+    {
+#aboutflex
+{
+display:inline;
+
+}
+#bad
+{
+margin-top:0 auto;
+margin-left:80px;
+
+}
+#followus
+{
+margin-top:50px;
+margin-left:200px;
+
+}
+.badg
+{
+margin-left:70px;
+}  
 
 
-
-
+}
 
 
 
