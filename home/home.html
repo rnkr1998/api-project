@@ -11,10 +11,10 @@
 </head>
 <script src="../style.js"></script>
 
-<body>
+<body >
 
    
-<div id="mySidenav" class="sidenav" >
+<div id="mySidenav" class="sidenav"  >
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
 
@@ -26,14 +26,13 @@
      
 
 
-<div style="background-color:black;color:whitesmoke;padding:15px"> <span style="font-size:30px;cursor:pointer; margin:15px" onclick="openNav()" onmouseover="openNav()">&#9776;</span>
-
-
+<div onmouseover="closeNav()" style="background-color:black;color:whitesmoke;padding:15px"> <span style="font-size:30px;cursor:pointer; margin:15px" onclick="openNav()" onmousemove="openNav()">&#9776;</span>
 
 </div>
 
+<div  onmouseover="closeNav()">
  <div class="jumbotron text-center" style="margin:0px;
-">
+" >
   <h1 style="cursor:pointer" onclick="window.location.href='../country/country-index.html'">Countries of the World</h1>
   <i style="margin:15px">Each Country Profile provides information on:
     Geography · Flag  · Current ruler · Area · Population · Capital .Currency. Languages · Religion  etc </i>
@@ -60,7 +59,7 @@
         <i style="margin:15px">Get Latest Cricket Match Score updates and Check out Live Cricket Score of International & Domestic cricket Matches</i>
       </div>
   </div>
-
+</div>
     
 
 </body>
