@@ -26,7 +26,7 @@ function myfun()
       c.style.background="none";
             c.innerHTML="Login Successfull !";
     
-            window.location.href="../home/home.html";
+            window.location.href='./home/home.html';
      }
      else
      {
