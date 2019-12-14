@@ -25,6 +25,10 @@ body {
   transition: 0.3s;
 }
 
+.badg:hover
+{
+transform: scale(1.05);
+}
 .sidenav a:hover {
   color: #f1f1f1;
 }
