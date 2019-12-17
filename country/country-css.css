@@ -73,6 +73,7 @@ h1 {
   text-align: center;
   align-content: center;
   margin-top: 40px;
+  border: 1px solid white;
 }
 #flag-container img {
   display: block;
