@@ -17,7 +17,7 @@ x.onload=function()
 {
     var data=JSON.parse(x.responseText);
          $(document).ready(function(){
-       $("#img1").fadeOut(2000);
+       $("#img1").fadeOut(400);
      
     });
     
