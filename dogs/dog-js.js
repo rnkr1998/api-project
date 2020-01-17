@@ -25,7 +25,7 @@ x.onload=function()
         $(document).ready(function(){
 
             $("#img1").attr("src",data.message);       
-     $("#img1").fadeIn(1000);
+            $("#img1").fadeIn(1000);
    
    
           });       
@@ -42,8 +42,8 @@ function my1()
 {
   
     $(document).ready(function(){
-        $("#img2").fadeOut(800);
-        $("#img2").fadeIn(1000);
+        $("#img2").fadeOut(400);
+      
     
      });
  x.open("GET","https://dog.ceo/api/breeds/image/random",true);
@@ -60,7 +60,8 @@ x.onload=function()
    
      $(document).ready(function(){
 
-         $("#img2").attr("src",data.message);       
+         $("#img2").attr("src",data.message);  
+         $("#img2").fadeIn(1000);
             });       
             my2();   
 }
@@ -75,8 +76,8 @@ function my2()
 {
   
     $(document).ready(function(){
-        $("#img3").fadeOut(800);
-        $("#img3").fadeIn(1000);
+        $("#img3").fadeOut(400);
+       
       });
  
  x.open("GET","https://dog.ceo/api/breeds/image/random",true);
@@ -94,7 +95,7 @@ x.onload=function()
 
    
       $("#img3").attr("src",data.message);  
-
+       $("#img3").fadeIn(1000);
    });
    
    my3();            
@@ -108,8 +109,8 @@ function my3()
 {
    
 $(document).ready(function(){
-    $("#img4").fadeOut(800);
-    $("#img4").fadeIn(1000);
+    $("#img4").fadeOut(400);
+   
    });
  x.open("GET","https://dog.ceo/api/breeds/image/random",true);
   x.onreadystatechange=function()
@@ -126,7 +127,8 @@ x.onload=function()
   
      $(document).ready(function(){
 
-         $("#img4").attr("src",data.message);       
+         $("#img4").attr("src",data.message);
+        $("#img4").fadeIn(1000);
        });       
 }
 }
