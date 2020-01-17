@@ -6,10 +6,7 @@ function my()
 {
   
   
-    $(document).ready(function(){
-       $("#img1").fadeOut(800);
-       $("#img1").fadeIn(1000);
-    });
+   
   
     x.open("GET","https://dog.ceo/api/breeds/image/random",true);
      x.onreadystatechange=function(){
@@ -19,13 +16,16 @@ function my()
 x.onload=function()
 {
     var data=JSON.parse(x.responseText);
-        
+         $(document).ready(function(){
+       $("#img1").fadeOut(800);
+     
+    });
     
         
         $(document).ready(function(){
 
             $("#img1").attr("src",data.message);       
-   
+     $("#img1").fadeIn(1000);
    
    
           });       
